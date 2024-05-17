@@ -1,0 +1,39 @@
+{
+    "name": "easy-swoole-php/think-log",
+    "type": "library",
+    "description": "An efficient swoole framework",
+    "keywords": [
+        "swoole",
+        "framework",
+        "async",
+        "easyswoole"
+    ],
+    "homepage": "https://www.easyswoole.com/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "XueSi",
+            "email": "hui.huang8540@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasySwoole\\ThinkLog\\": "src/"
+        },
+        "files": [
+            "src/Helper/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EasySwoole\\ThinkLog\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.3.0",
+        "easyswoole/component": "^2.3"
+    },
+    "require-dev": {
+        "easyswoole/phpunit": "^1.1"
+    }
+}
